@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "global": {
+    "files": [
+      "*.abap"
+    ],
+    "skip": [
+      "src/**/zcl_*",
+      "src/**/zif_*"
+    ]
+  },
+  "syntax": {
+    "version": "v750",
+    "errorNamespace": ".*"
+  },
+  "rules": {
+    "keyword_case": {
+      "enabled": true,
+      "expectedCase": "upper"
+    },
+    "line_length": {
+      "enabled": true,
+      "length": 120
+    },
+    "indentation": {
+      "enabled": true,
+      "style": "space",
+      "size": 2
+    },
+    "space_before_dot": {
+      "enabled": true
+    },
+    "space_after_dot": {
+      "enabled": true
+    }
+  }
+} 
