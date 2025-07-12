@@ -5,7 +5,8 @@
 *&---------------------------------------------------------------------*
 REPORT ztest_program.
 
-* AIGC START
+INCLUDE ZTEST_PROGRAM_CLS.
+
 * 简单的数据声明
 DATA: lv_string TYPE string VALUE 'Hello ABAPLint'.
 
@@ -26,4 +27,3 @@ APPEND 3 TO lt_numbers.
 LOOP AT lt_numbers INTO DATA(lv_number).
   WRITE: / lv_number.
 ENDLOOP.
-* AIGC END
