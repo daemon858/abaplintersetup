@@ -5,7 +5,7 @@
 *&---------------------------------------------------------------------*
 REPORT ztest_program.
 
-INCLUDE ztest_program_cls.
+INCLUDE ZTEST_PROGRAM_CLS.
 
 * 简单的数据声明
 DATA: lv_string TYPE string VALUE 'Hello ABAPLint'.
