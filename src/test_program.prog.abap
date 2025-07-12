@@ -26,4 +26,4 @@ APPEND 3 TO lt_numbers.
 LOOP AT lt_numbers INTO DATA(lv_number).
   WRITE: / lv_number.
 ENDLOOP.
-* AIGC END 
+* AIGC END
