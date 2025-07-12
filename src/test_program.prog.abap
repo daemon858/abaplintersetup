@@ -5,6 +5,8 @@
 *&---------------------------------------------------------------------*
 REPORT ztest_program.
 
+INCLUDE ztest_program_cls.
+
 * AIGC START
 * 简单的数据声明
 DATA: lv_string TYPE string VALUE 'Hello ABAPLint'.
